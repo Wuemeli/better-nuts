@@ -1,11 +1,8 @@
-FROM mhart/alpine-node:5.8.0
+FROM oven/bun:1 AS base
 
-# Switch to /app
 WORKDIR /app
-# Install deps
 COPY package.json ./
 RUN npm install --production
-# Copy source
 COPY . ./
 
 # Ports

@@ -1,9 +1,9 @@
 {
-  "name": "nuts-serve",
+  "name": "better-nits",
   "version": "3.1.1",
   "description": "Server to make GitHub releases (private) available to download with Squirrel support",
   "main": "./lib/index.js",
-  "homepage": "https://github.com/GitbookIO/nuts",
+  "homepage": "https://github.com/Wuemeli/better-nuts",
   "license": "Apache-2.0",
   "dependencies": {
     "analytics-node": "1.2.2",
@@ -31,20 +31,14 @@
     "should": "7.0.4"
   },
   "bugs": {
-    "url": "https://github.com/GitbookIO/nuts/issues"
+    "url": "https://github.com/Wuemeli/better-nuts/issues"
   },
-  "authors": [
-    {
-      "name": "Samy Pesse",
-      "email": "samypesse@gmail.com"
-    }
-  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/GitbookIO/nuts.git"
+    "url": "https://github.com/Wuemeli/better-nuts.git"
   },
   "scripts": {
-    "start": "node bin/web.js",
+    "start": "bun bin/web.js",
     "test": "mocha --reporter list"
   }
 }

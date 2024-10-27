@@ -1,0 +1,12 @@
+services:
+  nuts:
+    build: .
+    ports:
+      - "80:80"
+    environment:
+      - PORT=6000
+      - GITHUB_TOKEN=your_github_token_here
+      - GITHUB_REPO=Username/MyApp
+      - API_USERNAME=hello
+      - API_PASSWORD=world
+      - TRUST_PROXY=loopback
