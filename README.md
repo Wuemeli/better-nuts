@@ -1,5 +1,8 @@
 # Nuts
 
+# THIS IS A NEW VERSION OF NUTS KEPT UP TO DATE AND WORKS WITH DOCKER. JUST CLONE AND EDIT THE .yml and docker compose up
+
+
 Nuts is a simple (and smart) application to serve desktop-application releases.
 
 ![Schema](./docs/schema.png)
