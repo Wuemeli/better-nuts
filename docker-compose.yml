@@ -2,7 +2,7 @@ services:
   nuts:
     build: .
     ports:
-      - "80:80"
+      - "6000:80"
     environment:
       - PORT=6000
       - GITHUB_TOKEN=your_github_token_here
